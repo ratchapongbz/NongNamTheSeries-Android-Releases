@@ -4,8 +4,11 @@ This repository contains versioned Android APK releases only. The application so
 
 ## Download
 
-- [Download the latest APK](https://github.com/ratchapongbz/NongNamTheSeries-Android-Releases/releases/latest/download/NongNamTheSeries-release.apk)
-- [Download its SHA-256 checksum](https://github.com/ratchapongbz/NongNamTheSeries-Android-Releases/releases/latest/download/NongNamTheSeries-release.apk.sha256)
+- [NongNamTheSeries 1.2.0 ARM64 APK](https://github.com/ratchapongbz/NongNamTheSeries-Android-Releases/releases/download/v1.2.0/NongNamTheSeries-1.2.0-arm64.apk)
+- [SHA-256 checksum](https://github.com/ratchapongbz/NongNamTheSeries-Android-Releases/releases/download/v1.2.0/NongNamTheSeries-1.2.0-arm64.apk.sha256)
+- [Latest release page](https://github.com/ratchapongbz/NongNamTheSeries-Android-Releases/releases/latest)
+
+Releases use semantic tags (`vMAJOR.MINOR.PATCH`), matching versioned APK/checksum filenames. Published assets are immutable; updates receive a new version and a higher Android `versionCode`. See [VERSIONING.md](VERSIONING.md).
 
 ## Requirements
 
@@ -14,7 +17,7 @@ This repository contains versioned Android APK releases only. The application so
 
 ## Installation
 
-1. Download `NongNamTheSeries-release.apk` on the Android device.
+1. Download the versioned `.apk` on the Android device.
 2. Open the downloaded file.
 3. If Android asks, allow **Install unknown apps** for the browser or file manager used to open it.
 4. Confirm installation.
@@ -26,7 +29,7 @@ Do not disable Play Protect. Organization-managed devices may block sideloading.
 On macOS or Linux, place the APK and checksum file in the same directory and run:
 
 ```bash
-shasum -a 256 -c NongNamTheSeries-release.apk.sha256
+shasum -a 256 -c NongNamTheSeries-1.2.0-arm64.apk.sha256
 ```
 
 Each release page records build metadata and known verification limits.
